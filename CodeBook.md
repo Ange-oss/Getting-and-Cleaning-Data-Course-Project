@@ -1,25 +1,14 @@
 Description of the variables:
 
-Signals:
-'-XYZ' denote 3-axial signals in the X, Y and Z directions.
-
-- tBodyAcc-XYZ
-- tGravityAcc-XYZ
-- tBodyAccJerk-XYZ
-- tBodyGyro-XYZ
-- tBodyGyroJerk-XYZ
-- tBodyAccMag
-- tGravityAccMag
-- tBodyAccJerkMag
-- tBodyGyroMag
-- tBodyGyroJerkMag
-- fBodyAcc-XYZ
-- fBodyAccJerk-XYZ
-- fBodyGyro-XYZ
-- fBodyAccMag
-- fBodyAccJerkMag
-- fBodyGyroMag
-- fBodyGyroJerkMag
+- tAcc-XYZ: Features from accelerometer in 3-axial raw signals.
+- tGyro-XYZ: Features from gyroscope in 3-axial raw signals.
+- 't': Denote time.
+- tBodyAcc-XYZ: Body acceleration signals.
+- tGravityAcc-XYZ: Gravity acceleration signals.
+- tBodyAccJerk-XYZ: Derivation of body linear acceleration.
+- tBodyGyroJerk-XYZ: Derivation of angular velocity.
+- tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag: Magnitude of these three-dimensional signals  calculated by the Euclidean norm.
+- fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag: : Fast Fourier Transform (FFT) applied to these signals.
 
 Variables:
 
